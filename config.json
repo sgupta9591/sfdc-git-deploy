@@ -1,0 +1,288 @@
+{
+	"version": "38.0",
+	"types": {
+		"app": {
+			"name": "CustomApplication",
+			"wildCard": true
+		}, 
+		"auraApp": {
+			"name": "AuraDefinitionBundle",
+			"wildCard": true
+		}, 
+		"homePageLayouts": {
+			"name": "HomePageLayout",
+			"wildCard": true
+		},
+		"homePageComponents": {
+			"name": "HomePageComponent",
+			"wildCard": true
+		},					
+		"tokens": {
+			"name": "AuraDefinitionBundle",
+			"wildCard": true
+		},
+		"approvalProcess": {
+			"name": "ApprovalProcess",
+			"wildCard": true
+		},
+		"cmp": {
+			"name": "AuraDefinitionBundle",
+			"wildCard": true
+		},
+		"evt": {
+			"name": "AuraDefinitionBundle",
+			"wildCard": true
+		},
+		"cls": {
+			"name": "ApexClass",
+			"wildCard": true
+		},
+		"component": {
+			"name": "ApexComponent",
+			"wildCard": true
+		},
+		"customApplicationComponent": {
+			"name": "CustomApplicationComponent",
+			"wildCard": true
+		},
+		"customPermission":{
+			"name": "CustomPermission",
+			"wildCard": true
+		},
+		"md": {
+			"name": "CustomMetadata",
+			"wildCard": true
+		},
+		"email": {
+			"name": "EmailTemplate",
+			"wildCard": false
+		},
+		"flexipage": {
+			"name": "FlexiPage",
+			"wildCard": true
+		},
+		"flow": {
+			"name": "Flow",
+			"wildCard": true
+		},
+		"globalValueSet": {
+			"name": "GlobalValueSet",
+			"wildCard": true
+		},
+		"group": {
+			"name": "Group",
+			"wildCard": true
+		},
+		"layout": {
+			"name": "Layout",
+			"wildCard": true
+		},
+		"letter": {
+			"name": "Letterhead",
+			"wildCard": false
+		},
+		"object": {
+			"name": "CustomObject",
+			"wildCard": false
+		},
+		"objectTranslation": {
+			"name": "CustomObjectTranslation",
+			"wildCard": true
+		},
+		"page": {
+			"name": "ApexPage",
+			"wildCard": true
+		},
+		"profile": {
+			"name": "Profile",
+			"wildCard": true
+		},
+		"permissionset": {
+			"name": "PermissionSet",
+			"wildCard": true
+		},
+		"queue": {
+			"name": "Queue",
+			"wildCard": true
+		},
+		"quickAction": {
+			"name": "QuickAction",
+			"wildCard": true
+		},
+		"remoteSite": {
+			"name": "RemoteSiteSetting",
+			"wildCard": false
+		},
+		"report": {
+			"name": "Report",
+			"wildCard": false
+		},
+		"role": {
+			"name": "Role",
+			"wildCard": true
+		},
+		"settings": {
+			"name": "Settings",
+			"wildCard": false
+		},
+		"standardValueSet": {
+			"name": "StandardValueSet",
+			"wildCard": false
+		},
+		"resource": {
+			"name": "StaticResource",
+			"wildCard": true
+		},
+		"tab": {
+			"name": "CustomTab",
+			"wildCard": true
+		},
+		"trigger": {
+			"name": "ApexTrigger",
+			"wildCard": true
+		},
+		"workflow": {
+			"name": "Workflow",
+			"wildCard": true
+		},
+		"labels": {
+			"name": "CustomLabel",
+			"wildCard": false
+		},
+		"installedPackage": {
+			"name": "InstalledPackage",
+			"wildCard": true
+		},
+		"fields": {
+			"name": "CustomField",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"webLinks": {
+			"name": "WebLink",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"fieldSets": {
+			"name": "FieldSet",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"listViews": {
+			"name": "ListView",
+			"unique": "fullName",
+			"wildCard": false
+		}, 
+		"recordTypes": {
+			"name": "RecordType",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"validationRules": {
+			"name": "ValidationRule",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"businessProcesses": {
+			"name": "BusinessProcess",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"compactLayouts": {
+			"name": "CompactLayout",
+			"unique": "fullName",
+			"wildCard": true
+		},
+		"alerts": {
+			"name": "WorkflowAlert",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"fieldUpdates": {
+			"name": "WorkflowFieldUpdate",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"flowActions": {
+			"name": "WorkflowFlowAction",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"rules": {
+			"name": "WorkflowRule",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"tasks": {
+			"name": "WorkflowTask",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"outboundMessages": {
+			"name": "WorkflowOutboundMessage",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"knowledgePublishes": {
+			"name": "WorkflowKnowledgePublish",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"sharingRules": {
+			"name": "SharingRules",
+			"wildCard": true
+		},
+		"sharingCriteriaRules": {
+			"name": "SharingCriteriaRule",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"sharingOwnerRules": {
+			"name": "SharingOwnerRule",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"sharingTerritoryRules": {
+			"name": "SharingTerritoryRule",
+			"unique": "fullName",
+			"wildCard": false
+		},
+		"matchingRules": {
+			"name": "MatchingRule",
+			"unique": "fullName",
+			"wildCard": true
+		},
+		"reportType": {
+			"name": "ReportType",
+			"wildCard": true
+		},
+		"document": {
+			"name": "Document",
+			"wildCard": false
+		},
+		"asset": {
+			"name": "ContentAsset",
+			"wildCard": true
+		},
+		"datacategorygroup": {
+			"name": "DataCategoryGroup",
+			"wildCard": true
+		},
+		"cachePartition":{
+			"name": "PlatformCachePartition",
+			"wildCard": true
+		},
+		"duplicateRule":{
+			"name": "DuplicateRule",
+			"wildCard": true
+		},
+		"flowDefinition": {
+			"name": "FlowDefinition",
+			"wildCard": true
+		},
+		"synonymDictionary": {
+			"name": "SynonymDictionary",
+			"wildCard": true
+		}
+	}
+}

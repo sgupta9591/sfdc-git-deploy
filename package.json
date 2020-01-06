@@ -1,0 +1,26 @@
+{
+  "name": "sfdc-git-deploy",
+  "version": "1.0.3",
+  "description": "A salesforce metadata deployment script with git integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "delta": "node index delta",
+    "package": "node index package",
+    "deployonly": "node index deployonly",
+    "status": "node index status",
+    "deploy": "node index deploy"
+  },
+  "author": "Sumit Gupta (sumit.gupta@salesforce.com)",
+  "license": "ISC",
+  "repository": "https://github.com/sgupta9591/sfdc-git-deploy",
+  "dependencies": {
+    "archiver": "^2.0.0",
+    "command": "0.0.5",
+    "delete-empty": "^1.0.1",
+    "jsforce": "^1.8.0",
+    "promise": "^7.2.0",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.17"
+  }
+}
